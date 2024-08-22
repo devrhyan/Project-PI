@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project PI</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="navbar">
+                <div>
+                    <a class="logo" href="#">
+                        <h1>Dev.Rhyan</h1>
+                    </a>
+                </div>
+                <div class="navMenu">
+                    <ul class="menu">
+                        <li><a href="./form.html">Filmes</a></li>
+                        <li><a href="./index.html" class="active">Séries</a></li>
+                        <li><a href="./process.html">Documentários</a></li>
+                        <li><a href="./process.html">Notícias</a></li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <li><a href="#"><button class="login-button">Login</button></a></li>
+                </div>
+                <!-- <div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"><span>
+                </div>
+            </div> -->
+        </header>
+
+        <div class="conteudo" style=" width:100%; height:100vh; align-items:center; display:flex; flex-direction:column;
+        justify-content:center;">
+            <div class="title">
+                <h1>
+                    Filmes, séries e muito mais, sem limites
+                </h1>
+            </div>
+            <div class="information">
+                <p>A partir de R$ 25,90. Cancele quando quiser.</p>
+                <p>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+            </div>
+            <div style="display: flex;">
+                <form class="form2" class="caixa-input">
+                    <input class="formInput" type="text" placeholder="Email" required>
+                    <button class="reset" type="reset">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </form>
+                <div class="button">
+                    <li><a href="#"><button class="login-button2">Login</button></a></li>
+                </div>
+            </div>
+            <div class="theBest">
+                <h2 style="margin: 2rem 0 0 0;">Em alta:</h1>
+                <div class="slider" id="slider">
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="/controllers/script.js"></script>
+    <script src="/controllers/slide.js"></script>
+</body>
+
+</html>
